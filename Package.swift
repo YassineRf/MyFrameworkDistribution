@@ -16,12 +16,16 @@ let package = Package(
             name: "MyFramework",
             targets: ["MyFramework"])
     ],
- //   dependencies: [],               // [Package.Dependency]
+    dependencies: [],               // [Package.Dependency]
     targets: [                      // [Target]
-        .binaryTarget(
+        .target(
             name: "MyFramework",
-            path: "MyFramework.xcframework"
-            )
+            dependencies : []
+        ),
+        .testTarget(
+            name: "MyFrameworkTests",
+            dependencies : ["MyFramework"]
+        )
     ]
  //   swiftLanguageVersions: [],      // [SwiftVersion]?
  //   cLanguageStandard: nil,         // CLanguageStandard?
