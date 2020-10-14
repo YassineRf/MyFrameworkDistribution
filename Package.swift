@@ -20,7 +20,7 @@ let package = Package(
     targets: [                      // [Target]
         .target(
             name: "MyFramework", dependencies: [
-                "SomeOtherPackage",
+                "MyFramework",
             ])
     ]
  //   swiftLanguageVersions: [],      // [SwiftVersion]?
