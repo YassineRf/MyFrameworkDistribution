@@ -5,11 +5,6 @@ let package = Package(
     platforms: [
         .iOS(.v11)
     ],
-    products: [
-        .library(
-            name: "MyFramework", 
-            targets: ["MyFramework"])
-    ],
     targets: [
         .binaryTarget(
             name: "MyFramework", 
