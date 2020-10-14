@@ -5,8 +5,8 @@ let package = Package(
     platforms: [
         .iOS(.v11)
     ],
-    targets: [
-        .binaryTarget(
-            name: "MyFramework", 
-            path: "MyFramework.xcframework")
+    products: [
+        .library(
+            name: "MyFramework",
+            targets: ["MyFramework"])
     ])
