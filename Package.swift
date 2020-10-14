@@ -21,10 +21,6 @@ let package = Package(
         .target(
             name: "MyFramework"
         ),
-        .binaryTarget(
-            name: "MyFramework",
-            path: "MyFramework.xcframework"
-        ),
         .testTarget(
             name: "MyFrameworkTests",
             dependencies : ["MyFramework"]
