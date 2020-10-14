@@ -1,32 +1,17 @@
-// swift-tools-version:5.3
+
 import PackageDescription
-
-// Package initializer with
-
 let package = Package(
     name: "MyFramework",
-//    defaultLocalization: nil,       // LanguageTag?
-    platforms: [                    // [SupportedPlatform]?
+    platforms: [
         .iOS(.v11)
     ],
- //  pkgConfig: nil,                 // String?
- //   providers: [],                  // [SystemPackageProvider]?
-    products: [                     // [Product]
+    products: [
         .library(
             name: "MyFramework",
             targets: ["MyFramework"])
     ],
-    dependencies: [],               // [Package.Dependency]
-    targets: [                      // [Target]
+    targets: [
         .target(
-            name: "MyFramework"
-        ),
-        .testTarget(
-            name: "MyFrameworkTests",
-            dependencies : ["MyFramework"]
-        )
-    ]
- //   swiftLanguageVersions: [],      // [SwiftVersion]?
- //   cLanguageStandard: nil,         // CLanguageStandard?
- //   cxxLanguageStandard: nil        // CXXLanguageStandard?
-)
+            name: "MyFramework",
+            path: "MyFramework.xcframework")
+    ])
