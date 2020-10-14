@@ -1,6 +1,6 @@
 // swift-tools-version:5.3
-
 import PackageDescription
+
 let package = Package(
     name: "MyFramework",
     platforms: [
@@ -9,10 +9,10 @@ let package = Package(
     products: [
         .library(
             name: "MyFramework",
-            targets: ["MyFramework"])
+            targets: ["PressKit"])
     ],
     targets: [
-        .target(
-            name: "MyFramework",
-            path: "MyFramework.xcframework")
+        .binaryTarget(
+            name: "PressKit",
+            path: "PressKit.xcframework")
     ])
