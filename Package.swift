@@ -18,7 +18,9 @@ let package = Package(
     ],
  //   dependencies: [],               // [Package.Dependency]
     targets: [                      // [Target]
-        .target(name: "MyFramework")
+        .target(
+            name: "MyFramework",
+            path: "MyFramework.xcframework")
     ]
  //   swiftLanguageVersions: [],      // [SwiftVersion]?
  //   cLanguageStandard: nil,         // CLanguageStandard?
