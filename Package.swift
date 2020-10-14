@@ -5,24 +5,24 @@ import PackageDescription
 
 let package = Package(
     name: "MyFramework",
-    defaultLocalization: nil,       // LanguageTag?
+//    defaultLocalization: nil,       // LanguageTag?
     platforms: [                    // [SupportedPlatform]?
         .iOS(.v11)
     ],
-    pkgConfig: nil,                 // String?
-    providers: [],                  // [SystemPackageProvider]?
+ //  pkgConfig: nil,                 // String?
+ //   providers: [],                  // [SystemPackageProvider]?
     products: [                     // [Product]
         .library(
             name: "MyFramework",
             targets: ["MyFramework"])
     ],
-    dependencies: [],               // [Package.Dependency]
+ //   dependencies: [],               // [Package.Dependency]
     targets: [                      // [Target]
         .target(
             name: "MyFramework",
             path: "MyFramework.xcframework")
-    ],
-    swiftLanguageVersions: [],      // [SwiftVersion]?
-    cLanguageStandard: nil,         // CLanguageStandard?
-    cxxLanguageStandard: nil        // CXXLanguageStandard?
+    ]
+ //   swiftLanguageVersions: [],      // [SwiftVersion]?
+ //   cLanguageStandard: nil,         // CLanguageStandard?
+ //   cxxLanguageStandard: nil        // CXXLanguageStandard?
 )
