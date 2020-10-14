@@ -9,5 +9,10 @@ let package = Package(
         .library(
             name: "MyFramework",
             targets: ["MyFramework"])
+    ],
+    targets: [
+        .binaryTarget(
+            name: "MyFramework",
+            path: "MyFramework.xcframework")
     ]
 )
