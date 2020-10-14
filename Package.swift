@@ -19,8 +19,11 @@ let package = Package(
     dependencies: [],               // [Package.Dependency]
     targets: [                      // [Target]
         .target(
+            name: "MyFramework"
+        ),
+        .binaryTarget(
             name: "MyFramework",
-            dependencies : []
+            path: "MyFramework.xcframework"
         ),
         .testTarget(
             name: "MyFrameworkTests",
