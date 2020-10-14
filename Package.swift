@@ -15,13 +15,15 @@ let package = Package(
         .library(
             name: "MyFramework",
             targets: [])
-    ]
+    ],
  //   dependencies: [],               // [Package.Dependency]
-//    targets: [                      // [Target]
-//        .target(
-//            name: "MyFramework",
-//            path: "MyFramework.xcframework")
-//    ]
+    targets: [                      // [Target]
+        .target(
+            name: "MyFramework",
+            dependencies: [
+                "MyFramework.xcframework",
+            ])
+    ]
  //   swiftLanguageVersions: [],      // [SwiftVersion]?
  //   cLanguageStandard: nil,         // CLanguageStandard?
  //   cxxLanguageStandard: nil        // CXXLanguageStandard?
