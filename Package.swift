@@ -14,14 +14,13 @@ let package = Package(
     products: [                     // [Product]
         .library(
             name: "MyFramework",
-            targets: [])
+            targets: ["MyFramework"])
     ],
  //   dependencies: [],               // [Package.Dependency]
     targets: [                      // [Target]
         .target(
-            name: "MyFramework",
-            dependencies: [
-                "MyFramework.xcframework",
+            name: "MyFramework", dependencies: [
+                "SomeOtherPackage",
             ])
     ]
  //   swiftLanguageVersions: [],      // [SwiftVersion]?
