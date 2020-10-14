@@ -15,7 +15,7 @@ let package = Package(
         .library(
             name: "MyFramework",
             targets: [])
-    ],
+    ]
  //   dependencies: [],               // [Package.Dependency]
 //    targets: [                      // [Target]
 //        .target(
