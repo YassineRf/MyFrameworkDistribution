@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   spec.author             = { "YassineRf" => "yassine.toutouh@outlook.fr" }
-  spec.source       = { :git => "https://github.com/YassineRf/MyFrameworkDistribution.git", :tag => "#{spec.version}" }
+  spec.source       = { :https => "https://github.com/YassineRf/MyFrameworkDistribution.git", :tag => "#{spec.version}" }
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
