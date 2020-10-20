@@ -20,7 +20,8 @@ Pod::Spec.new do |spec|
   spec.author             = { "YassineRf" => "yassine.toutouh@outlook.fr" }
 
   spec.source       = { :https => "https://github.com/YassineRf/MyFrameworkDistribution/releases/download/2.0.2/PressKit.xcframework.zip" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.platform                   = :ios
+  spec.ios.deployment_target      = '11.0'
+  spec.ios.vendored_frameworks    = 'PressKit.xcframework'
 
 end
