@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "Presskit"
+  spec.name         = "PressKit"
   spec.version      = "2.0.1"
   spec.summary      = "A short description of Presskit."
   # spec.description  = <<-DESC
