@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
 
   spec.documentation              = 'https://github.com/YassineRf/MyFrameworkDistribution/blob/master/README.md'
 
-  spec.source                     = { :http => 'https://github.com/YassineRf/MyFrameworkDistribution/releases/download/2.0.2/PressKit.xcframework.zip' }
+  spec.source                     = { :http => 'https://github.com/YassineRf/MyFrameworkDistribution/releases/download/2.0.2/PressKit.xcframework.zip', :tag => "#{spec.version}"}
 
   spec.swift_version              = '5.0'
   spec.platform                   = :ios
