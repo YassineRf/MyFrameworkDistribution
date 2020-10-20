@@ -10,11 +10,11 @@ Pod::Spec.new do |spec|
   spec.name         = "Presskit"
   spec.version      = "2.0.1"
   spec.summary      = "A short description of Presskit."
-  spec.description  = <<-DESC
-                   DESC
-  spec.homepage     = "http://EXAMPLE/Presskit"
+  # spec.description  = <<-DESC
+  #                  DESC
+  # spec.homepage     = "http://EXAMPLE/Presskit"
 
-  spec.license      = "MIT (example)"
+  # spec.license      = "MIT (example)"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   spec.author             = { "YassineRf" => "yassine.toutouh@outlook.fr" }
