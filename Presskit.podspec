@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "PressKit"
-  spec.version      = "2.0.1"
+  spec.version      = "2.0.2"
   spec.summary      = "A short description of Presskit."
   # spec.description  = <<-DESC
   #                  DESC
@@ -18,7 +18,8 @@ Pod::Spec.new do |spec|
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   spec.author             = { "YassineRf" => "yassine.toutouh@outlook.fr" }
-  spec.source       = { :git => "https://github.com/YassineRf/MyFrameworkDistribution.git", :tag => "#{spec.version}" }
+
+  spec.source       = { :https => "https://github.com/YassineRf/MyFrameworkDistribution/releases/download/2.0.2/PressKit.xcframework.zip" }
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
