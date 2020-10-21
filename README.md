@@ -41,5 +41,5 @@ pod 'PressKit'
   
   * Drag and drop PressKit.xcframework folder, into the 'Frameworks, Libraries, and Embedded Content'
   
-  * Choose 'Embed & Sign' once you have added the xcframework
+  * Choose 'Embed & Sign' once you have added the .xcframework
  
