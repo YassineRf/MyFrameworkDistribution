@@ -15,7 +15,12 @@ pod 'PressKit'
  
  ### Carthage 
  
- 
+  * Add the following line to your ```Cartfile``` to integrate PressKit into your project :
+  
+  ```ruby
+  binary "https://raw.githubusercontent.com/YassineRf/MyFrameworkDistribution/master/PressKit.json"
+  ```
+  * Run ```carthage update```
  
  ### Swift Package Manager
  
