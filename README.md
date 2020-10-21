@@ -32,7 +32,7 @@ pod 'PressKit'
     
   * Unzip the PressKit.xcframework.zip
   
-  * Select ```Your.xcodeproj``` > General > Frameworks, Libraries, and Embedded Content
+  * Open your xcode project, select ```Your.xcodeproj``` > General > Frameworks, Libraries, and Embedded Content
   
   * Drag and drop PressKit.xcframework folder, into the 'Frameworks, Libraries, and Embedded Content'
   
