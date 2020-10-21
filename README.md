@@ -1,3 +1,16 @@
+## Cocoapods
+
+To install PressKit with Cocoapods, first you must have installed Cocoapods on your computer :
+ 
+Refer to this url to get started with it : https://cocoapods.org/
+
+Then, to install PressKit, add the following line to your Podfile:
+
+```ruby
+pod 'PressKit'
+```
+ Run ```pod install```
+
 https://medium.com/@anuragajwani/how-to-distribute-compiled-universal-ios-xcframeworks-using-swift-package-manager-8eaf8395985f
 
 
