@@ -23,10 +23,12 @@ pod 'PressKit'
  
  If you want, you can still integrate PressKit into your project manually
  
- To do it, here are the steps to follow :
+ Here are the steps you have to follow :
  
-  • Download our zip file with this link ```https://github.com/YassineRf/MyFrameworkDistribution/releases/download/3.0.0/PressKit.xcframework.zip```
-  • Find your zip file and unzip it
+  • Download our zip file containing our last PressKit release by clicking on this link https://github.com/YassineRf/MyFrameworkDistribution/releases/download/3.0.0/PressKit.xcframework.zip
+  
+  • Unzip what you just downloaded
+  
   • Drag and drop the new folder you just got, into the 'Frameworks' folder inside your Xcode project
  
 
