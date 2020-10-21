@@ -6,12 +6,12 @@ To install PressKit with Cocoapods, first you must have installed Cocoapods on y
  
 Refer to this url to get started with it : https://cocoapods.org/
 
-Add the following line to your Podfile to integrate PressKit into your project :
+ * Add the following line to your ```Podfile``` to integrate PressKit into your project :
 
 ```ruby
 pod 'PressKit'
 ```
- Run ```pod install```
+ * Run ```pod install```
  
  ### Carthage 
  
@@ -28,13 +28,13 @@ pod 'PressKit'
  
  Here are the steps you have to follow :
  
-  • Download our zip file containing our last PressKit release by clicking on this link https://github.com/YassineRf/MyFrameworkDistribution/releases/download/3.0.0/PressKit.xcframework.zip
+  * Download our zip file containing our last PressKit release by clicking on this link https://github.com/YassineRf/MyFrameworkDistribution/releases/download/3.0.0/PressKit.xcframework.zip
+    
+  * Unzip the PressKit.xcframework.zip
   
-  • Unzip the file
+  * Select ```Your.xcodeproj``` > General > Frameworks, Libraries, and Embedded Content
   
-  • Select ```Your.xcodeproj``` > General > Frameworks, Libraries, and Embedded Content
+  * Drag and drop PressKit.xcframework folder, into the 'Frameworks, Libraries, and Embedded Content'
   
-  • Drag and drop PressKit.xcframework folder, into the 'Frameworks, Libraries, and Embedded Content'
-  
-  • WARNING : Don't forget to choose 'Embed & Sign' once you have added the xcframework
+  * Choose 'Embed & Sign' once you have added the xcframework
  
