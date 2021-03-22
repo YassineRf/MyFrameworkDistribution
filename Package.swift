@@ -12,5 +12,5 @@ let package = Package(
             targets: ["PressKit"])
     ],
     dependencies: [
-        .package(url: "git@github.com:YassineRf/MyFrameworkDistribution.git", branch("master"))
+        .package(url: "git@github.com:YassineRf/MyFrameworkDistribution.git", .branch("master"))
     ])
