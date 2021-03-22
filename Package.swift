@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PressKit",
-            url: "https://github.com/YassineRf/MyFrameworkDistribution/releases/download/3.0.0/PressKit.xcframework.zip",
+            url: "https://user:password@github.com/YassineRf/MyFrameworkDistribution/releases/download/3.0.0/PressKit.xcframework.zip",
             checksum: "edef3e2146ed0166881fcac67983292e5c7baf798ec0756a928c791f194b771e"
             )
     ])
